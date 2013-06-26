@@ -18,6 +18,7 @@ last update: 2013.6.26
 
 ==========================================
 HOW TO USE
+
 1. copy files in the layout fold to you project's layout fold,
 
 2. copy files in drawable-mdpi fold to your project's drawable-mdpi
@@ -36,6 +37,7 @@ HOW TO USE
 5. 函数调用
 
 5.1 
+
 在onCreate()中注册
 CuzyAdSDK.getInstance().setContext(this);
      CuzyAdSDK.getInstance().registerApp("200003","208f53acd6d396867c2a721be6c807eb");
