@@ -19,18 +19,22 @@ last update: 2013.6.26
 ==========================================
 HOW TO USE
 1. copy files in the layout fold to you project's layout fold,
+
 2. copy files in drawable-mdpi fold to your project's drawable-mdpi
+
 3. add CuzyAdSDKAndroid.jar to your project
+
 
 4. 添加信息到androidManifest.xml 
 
-       ……
+…
         <activity android:name="com.theindex.CuzyAdSDK.CuzyTBKPresentationActivity"   />
         <activity android:name="com.theindex.CuzyAdSDK.CuzyTBKWebviewActivity"    />
  </application>
 
 
 5. 函数调用
+
 5.1 
 在onCreate()中注册
 CuzyAdSDK.getInstance().setContext(this);
@@ -39,7 +43,9 @@ CuzyAdSDK.getInstance().setContext(this);
 5.2可以使用三种模式调用
 
 1)CuzyAdSDK.getInstance().fetchItems("6","",0);
+
 2)CuzyAdSDK.getInstance().fetchItems("","茶",0);
+
 3)ArrayList<CuzyTBKItem> rawData = CuzyAdSDK.getInstance().fetchRawItems("", "手机", 0);
 
 
