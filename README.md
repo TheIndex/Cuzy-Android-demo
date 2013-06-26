@@ -28,8 +28,8 @@ HOW TO USE
 
 4. 添加信息到androidManifest.xml 
 
-<activity android:name="com.theindex.CuzyAdSDK.CuzyTBKPresentationActivity"   />
-<activity android:name="com.theindex.CuzyAdSDK.CuzyTBKWebviewActivity"    />
+" <activity android:name="com.theindex.CuzyAdSDK.CuzyTBKPresentationActivity"   /> "
+" <activity android:name="com.theindex.CuzyAdSDK.CuzyTBKWebviewActivity"    />     "
 </application>
 
 
