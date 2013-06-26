@@ -15,48 +15,34 @@ last update: 2013.6.26
 
 2.  you can download the sdk at : http://cuzy.com/index/download_sdk
 
-3.  Something Notable:
 
-   1).Copy the apropriate architecture's .a library and the apropriate resource bundle when you test.
+==========================================
+HOW TO USE
+1. copy files in the layout fold to you project's layout fold,
+2. copy files in drawable-mdpi fold to your project's drawable-mdpi
+3. add CuzyAdSDKAndroid.jar to your project
 
-   2).You app's mainWindow's rootViewController should not be nil.
+4. 添加信息到androidManifest.xml 
 
-   3).Add -ObjC linker flag to your other link flag.
-
-
-4.HOW TO USE:
-#import "CuzyAdSDK.h"
-@interface FrontViewController : UIViewController<CuzyAdSDKDelegate>
-
-{
-    
-}
+       ……
+        <activity android:name="com.theindex.CuzyAdSDK.CuzyTBKPresentationActivity"   />
+        <activity android:name="com.theindex.CuzyAdSDK.CuzyTBKWebviewActivity"    />
+ </application>
 
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    [[CuzyAdSDK sharedAdSDK] setDelegate:self];
-    [[CuzyAdSDK sharedAdSDK] registerAppWithAppKey:@"cuzy key"   andAppSecret:@"cuzy secret"];
-}
+5. 函数调用
+5.1 
+在onCreate()中注册
+CuzyAdSDK.getInstance().setContext(this);
+     CuzyAdSDK.getInstance().registerApp("200003","208f53acd6d396867c2a721be6c807eb");
+
+5.2可以使用三种模式调用
+
+1)CuzyAdSDK.getInstance().fetchItems("6","",0);
+2)CuzyAdSDK.getInstance().fetchItems("","茶",0);
+3)ArrayList<CuzyTBKItem> rawData = CuzyAdSDK.getInstance().fetchRawItems("", "手机", 0);
 
 
-- (IBAction)showLayout1:(id)sender {
-    [[CuzyAdSDK sharedAdSDK] fetchAppItemWithThemeID:nil orSearchKeywords:@"abcd"];
-}
-- (IBAction)showLayout2:(id)sender {
-    [[CuzyAdSDK sharedAdSDK] fetchAppItemWithThemeID:@"8" orSearchKeywords:@"abcde"];
-}
-- (IBAction)getRawDataArray:(id)sender {
-   NSArray* rawArray  = [[CuzyAdSDK sharedAdSDK] fetchRawItemArraysWithThemeID:@"8" orSearchKeywords:@"adbc" withPageIndex:0];
-    
-    NSLog(@"the rawArray size is %d", rawArray.count);
-    for (int i =0;i<[rawArray count]; i++) {
-        CuzyTBKItem* tempItem = [rawArray objectAtIndex:i];
-        
-    }
-
-}
 
 
 
