@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SideNavigation-master/actionbarsherlock/actionbarsherlock.iml" filepath="$PROJECT_DIR$/SideNavigation-master/actionbarsherlock/actionbarsherlock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SideNavigation-master/library/library.iml" filepath="$PROJECT_DIR$/SideNavigation-master/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SideNavigation-master/holoeverywhere/library/library1.iml" filepath="$PROJECT_DIR$/SideNavigation-master/holoeverywhere/library/library1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SideNavigation-master/sample/sample.iml" filepath="$PROJECT_DIR$/SideNavigation-master/sample/sample.iml" />
+    </modules>
+  </component>
+</project>
+

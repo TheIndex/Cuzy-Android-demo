@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingLeft="4dp"
+              android:paddingRight="4dp"
+              android:background="@android:color/transparent"
+              android:gravity="center"
+        >
+    <ImageView android:id="@+id/itemImageView"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:adjustViewBounds="true"
+               android:baselineAlignBottom="false" android:cropToPadding="true"
+               android:scaleType="fitXY"
+               android:layout_alignBottom="@id/boundImage"
+               android:layout_alignRight="@id/boundImage"
+               android:paddingBottom="5dp"
+            />
+    <ImageView android:id="@+id/boundImage"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/cuzy_layout_2_cell_bg"/>
+
+    <TextView android:id="@+id/itemName"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/boundImage"
+              android:text="itemName"
+            />
+    <ImageView android:id="@+id/cellLine"
+               android:layout_width="fill_parent"
+               android:layout_height="1dp"
+               android:layout_below="@id/itemName"
+               android:layout_alignRight="@id/boundImage"
+               android:background="#6B6B6B"/>
+    <TextView android:id="@+id/itemSellCount"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/cellLine"
+              android:layout_alignLeft="@id/boundImage"
+              android:text="itemSellCount"
+            />
+
+    <TextView android:id="@+id/itemPrice"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignRight="@id/boundImage"
+              android:layout_below="@id/cellLine"
+              android:text="itemPrice"
+            />
+
+
+</RelativeLayout>

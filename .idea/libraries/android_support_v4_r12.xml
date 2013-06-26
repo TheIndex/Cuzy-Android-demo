@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="android-support-v4-r12">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SideNavigation-master/actionbarsherlock/libs/android-support-v4-r12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

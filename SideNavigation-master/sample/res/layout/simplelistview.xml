@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+        >
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:id="@+id/relativeLayoutLeft" android:gravity="right">
+        <ImageView android:id="@+id/itemImageView"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:adjustViewBounds="true"
+                   android:baselineAlignBottom="false" android:cropToPadding="true"
+                   android:scaleType="fitXY"
+                   android:layout_alignBottom="@id/boundImage"
+                   android:layout_alignRight="@id/boundImage"
+                   android:paddingBottom="5dp"
+                   android:layout_alignTop="@+id/boundImage"/>
+        <TextView android:id="@+id/itemSellCount"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/cellLine"
+                  android:layout_alignLeft="@id/boundImage"
+                  android:text="itemSellCount"
+                />
+        <ImageView android:id="@+id/cellLine"
+                   android:layout_width="fill_parent"
+                   android:layout_height="1dp"
+                   android:layout_below="@id/itemName"
+                   android:layout_alignRight="@id/boundImage"
+                   android:background="#6B6B6B"/>
+        <TextView android:id="@+id/itemPrice"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignRight="@id/boundImage"
+                  android:layout_below="@id/cellLine"
+                  android:text="itemPrice"
+                />
+        <ImageView android:id="@+id/boundImage"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/cuzy_layout_2_cell_bg"/>
+        <TextView android:id="@+id/itemName"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/boundImage"
+                  android:text="itemName"
+                  android:maxLines="1" android:maxLength="9"/>
+    </RelativeLayout>
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" android:layout_alignBottom="@+id/relativeLayoutLeft"
+            android:id="@+id/relativeLayoutRight"
+            android:background="@android:color/transparent"
+            android:layout_alignParentRight="false"
+            android:gravity="left" android:layout_centerInParent="true" android:paddingLeft="150dp">
+
+        <ImageView android:id="@+id/boundImage_right"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/cuzy_layout_2_cell_bg" android:layout_alignParentRight="true"/>
+        <ImageView android:id="@+id/itemImageView_right"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:adjustViewBounds="true"
+                   android:baselineAlignBottom="false" android:cropToPadding="true"
+                   android:scaleType="fitXY"
+                   android:layout_alignBottom="@id/boundImage_right"
+                   android:layout_alignRight="@id/boundImage_right"
+                   android:paddingBottom="5dp"
+                   android:layout_alignParentRight="true"
+                   android:layout_alignLeft="@id/boundImage_right"
+                   android:layout_alignTop="@id/boundImage_right"/>
+        <TextView android:id="@+id/itemName_right"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/boundImage_right"
+                  android:text="itemName"
+                  android:layout_alignParentRight="false" android:layout_alignLeft="@+id/boundImage_right"
+                  android:maxLines="1"/>
+        <ImageView android:id="@+id/cellLine_right"
+                   android:layout_width="fill_parent"
+                   android:layout_height="1dp"
+                   android:layout_below="@id/itemName_right"
+                   android:layout_alignRight="@id/boundImage_right"
+                   android:background="#6B6B6B" android:layout_alignLeft="@+id/boundImage_right"/>
+        <TextView android:id="@+id/itemSellCount_right"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/cellLine_right"
+                  android:layout_alignLeft="@id/boundImage_right"
+                  android:text="itemSellCount"
+                />
+
+        <TextView android:id="@+id/itemPrice_right"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignRight="@id/boundImage_right"
+                  android:layout_below="@id/cellLine_right"
+                  android:text="itemPrice"
+                />
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="18dp" android:layout_below="@+id/relativeLayoutLeft"
+            >
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+

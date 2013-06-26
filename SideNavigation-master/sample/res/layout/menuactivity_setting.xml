@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView" android:layout_gravity="left|center_vertical" android:src="@drawable/setting_background"
+            android:contentDescription="background"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       cuzySDK(www.cuzy.com)是一个移动开发者提供淘宝客模块的平台。开发者通过使用cuzy，可以便捷的集成到各移动平台，方便的删选推荐物品，高效的转换流量。"
+            android:id="@+id/textView"
+            android:textColor="@android:color/darker_gray" android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp" android:layout_alignParentTop="true" android:layout_marginTop="280dp"/>
+    <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="         QQ：1263572458    "
+            android:id="@+id/textView1"
+            android:layout_centerHorizontal="true" android:layout_below="@+id/textView"
+            android:layout_alignLeft="@+id/textView" android:layout_alignRight="@+id/textView"
+            android:textColor="@android:color/darker_gray"/>
+    <TextView android:layout_width="300dp" android:layout_height="wrap_content"
+              android:text="         QQ群：322622433   " android:id="@+id/textView2"
+              android:textColor="@android:color/darker_gray" android:layout_alignLeft="@+id/textView"
+              android:layout_below="@+id/textView1"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="         意见反馈及技术支持邮箱：support@theindex.com   aa@theindex.com"
+              android:id="@+id/textView3" android:textColor="@android:color/darker_gray"
+              android:layout_alignLeft="@+id/textView" android:layout_below="@+id/textView2"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="         地址：朝阳区西大望路甲3号 蓝堡国际中心1座2303    邮编：100022"
+              android:id="@+id/textView4" android:textColor="@android:color/darker_gray"
+              android:layout_alignLeft="@+id/textView" android:layout_below="@+id/textView3"/>
+    <com.devspark.sidenavigation.SideNavigationView
+            android:id="@+id/side_navigation_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+</RelativeLayout>

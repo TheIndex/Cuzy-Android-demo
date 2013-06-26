@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:visibility="visible" android:layout_gravity="left|right"
+        android:background="@android:color/transparent"
+        >
+
+    <ImageView android:id="@+id/itemImageView"
+               android:layout_width="match_parent"
+               android:layout_height="250dp"
+               android:adjustViewBounds="true"
+               android:baselineAlignBottom="false" android:cropToPadding="true"
+               android:scaleType="fitXY"
+               android:paddingTop="4dp"
+            />
+    <ImageView android:id="@+id/boundImage"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@drawable/cuzy_layout_1_cell_bg"
+            android:layout_below="@id/itemImageView"/>
+
+
+    <TextView android:id="@+id/itemDescription"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_alignBottom="@id/boundImage"
+              android:text="itemDescriptionasdfasjdkflajsdlkfajslkdfasdfasdfasxcv"
+              android:paddingBottom="5dp"
+              />
+    <TextView android:id="@+id/itemName"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_above="@id/itemDescription"
+              android:text="itemName"
+              android:paddingBottom="5dp"
+            />
+    <TextView android:id="@+id/itemPrice"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_alignBottom="@id/itemDescription"
+              android:text="itemPrice"
+              android:paddingBottom="5dp"
+              android:paddingRight="8dp"
+              />
+    <TextView android:id="@+id/itemSellCount"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_toLeftOf="@id/itemPrice"
+              android:layout_alignBottom="@id/itemDescription"
+              android:text="itemSellCount"
+              android:paddingBottom="5dp"
+              android:paddingRight="5dp"
+            />
+    <Button android:id="@+id/detailButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignBottom="@id/itemImageView"
+            android:clickable="true"
+            android:enabled="true"
+            android:visibility="visible"
+            android:background="#00000000"
+            />
+
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SideNavigation-master/sample/lib/httpclient-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SideNavigation-master/sample/lib/apache-mime4j-0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SideNavigation-master/sample/lib/signpost-jetty6-1.2.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SideNavigation-master/sample/lib/joda-time-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SideNavigation-master/sample/lib/android-sqlite-asset-helper.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SideNavigation-master/sample/lib/umeng_sdk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SideNavigation-master/sample/lib/signpost-commonshttp4-1.2.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SideNavigation-master/sample/lib/GoogleAdMobAdsSdk-6.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SideNavigation-master/sample/lib/signpost-core-1.2.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SideNavigation-master/sample/lib/acra-4.3.0b2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SideNavigation-master/sample/lib/httpmime-4.1-beta1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SideNavigation-master/sample/lib/android-async-http-1.4.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SideNavigation-master/sample/lib/gcm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SideNavigation-master/sample/lib/commons-io-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SideNavigation-master/sample/lib/android-query-full.0.25.5-beta.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SideNavigation-master/sample/lib/CuzyAdSDKAndroid.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
