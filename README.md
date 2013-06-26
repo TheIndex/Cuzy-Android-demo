@@ -1,6 +1,13 @@
 Cuzy-android-demo
 
+IDE using:
+intellij idea 12
+
+
+
 ![alt tag](https://raw.github.com/TheIndex/Cuzy-iOS-demo/master/pic/0.png)
+
+
 =============
 
 android demo, that shows the capabilities of Cuzy SDK (淘宝客), that can be found on http://www.cuzy.com
@@ -28,9 +35,11 @@ HOW TO USE
 
 4. 添加信息到androidManifest.xml 
 
-" <activity android:name="com.theindex.CuzyAdSDK.CuzyTBKPresentationActivity"   /> "
-" <activity android:name="com.theindex.CuzyAdSDK.CuzyTBKWebviewActivity"    />     "
-</application>
+activity android:name="com.theindex.CuzyAdSDK.CuzyTBKPresentationActivity"   /> 
+
+activity android:name="com.theindex.CuzyAdSDK.CuzyTBKWebviewActivity"    />   
+
+application>
 
 
 5. 函数调用
