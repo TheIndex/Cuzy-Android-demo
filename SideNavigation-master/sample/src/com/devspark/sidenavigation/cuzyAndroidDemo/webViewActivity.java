@@ -22,6 +22,7 @@ public class webViewActivity extends Activity {
     public static final String EXTRA_WEBURL = "com.devspark.sidenavigation.cuzyAndroidDemo.extra.weburl";
 
     public ProgressBar progressBar = null;
+    public WebView uiwebview;
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
@@ -36,7 +37,7 @@ public class webViewActivity extends Activity {
         if (getIntent().hasExtra(EXTRA_WEBURL)) {
             String title = getIntent().getStringExtra(EXTRA_WEBURL);
             //setTitle(title);
-            WebView uiwebview = (WebView)findViewById(R.id.webView);
+            uiwebview = (WebView)findViewById(R.id.webView);
             uiwebview.setWebViewClient(new Callback());
             uiwebview.getSettings().setBuiltInZoomControls(true);
             uiwebview.getSettings().setJavaScriptEnabled(true);
@@ -64,6 +65,17 @@ public class webViewActivity extends Activity {
         public void onPageFinished(android.webkit.WebView view, java.lang.String url) {
             progressBar.setVisibility(View.INVISIBLE);
             Log.d("CuzyAdSDK","finished " + url);
+            if(url.contains("http://detail.tmall.com/"))
+            {
+                ///if it is a tmall link
+                String[] sArray = url.split("\\?|&");
+                String idString = sArray[1];
+                idString = idString.substring(3);///get rid of "id=";
+                idString = "http://a.m.tmall.com/i" + idString + ".htm";
+
+                uiwebview.loadUrl(idString);
+
+            }
         }
         @Override
         public void onReceivedError(android.webkit.WebView view, int errorCode, java.lang.String description, java.lang.String failingUrl){

@@ -58,7 +58,7 @@ public class BaseMenuActivity extends SherlockActivity implements ISideNavigatio
 
 
         CuzyAdSDK.getInstance().setContext(this);
-        CuzyAdSDK.getInstance().registerApp("200056","051a9e4652fc5b881dfc6ba74d3cd633");
+        CuzyAdSDK.getInstance().registerApp("200003","208f53acd6d396867c2a721be6c807eb");
 
 
         setContentView(R.layout.menuactivity1);

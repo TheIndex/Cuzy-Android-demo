@@ -28,12 +28,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="728b621c-4d6f-440f-be10-098d79f50c09" name="Default" comment="update..~~">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/baseMenuActivity3.java" afterPath="$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/baseMenuActivity3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SideNavigation-master/sample/lib/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SideNavigation-master/sample/lib/CuzyAdSDKAndroid.jar" afterPath="$PROJECT_DIR$/SideNavigation-master/sample/lib/CuzyAdSDKAndroid.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/BaseMenuActivity.java" afterPath="$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/BaseMenuActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/baseMenuActivity2.java" afterPath="$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/baseMenuActivity2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/webViewActivity.java" afterPath="$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/webViewActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="information.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1374655375133" ignored="false" />
+    <file path="/Dummy.txt" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1374655476340" ignored="false" />
     <file path="/menuActivity1.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1371721065638" ignored="false" />
     <file path="$PROJECT_DIR$/../cuzy-android/CuzyAdSDKAndroid/src/com/theindex/CuzyAdSDK/CuzyNetCenter.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1371296617510" ignored="false" />
     <file path="/fragment.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1374653627308" ignored="false" />
@@ -180,7 +184,7 @@
       <file leaf-file-name="webViewActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/webViewActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="29" selection-start="2917" selection-end="2917" vertical-scroll-proportion="0.9254902">
+            <state line="77" column="29" selection-start="2917" selection-end="2917" vertical-scroll-proportion="0.8756957">
               <folding />
             </state>
           </provider>
@@ -259,8 +263,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="594" />
-    <option name="y" value="24" />
+    <option name="x" value="483" />
+    <option name="y" value="22" />
     <option name="width" value="1615" />
     <option name="height" value="986" />
   </component>
@@ -819,7 +823,11 @@
       <created>1372672246829</created>
       <updated>1372672246829</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="update..~~">
+      <created>1374655396542</created>
+      <updated>1374655396542</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -843,10 +851,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="594" y="24" width="1615" height="986" extended-state="0" />
+    <frame x="483" y="22" width="1615" height="986" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30384168" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30369514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -860,8 +868,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3275972" sideWeight="0.66281754" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33718246" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3275972" sideWeight="0.69630486" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33718246" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14167199" sideWeight="0.6627771" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32737714" sideWeight="0.6627771" order="2" side_tool="false" content_ui="tabs" />
@@ -1043,7 +1051,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/webViewActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="29" selection-start="2917" selection-end="2917" vertical-scroll-proportion="0.9254902">
+        <state line="77" column="29" selection-start="2917" selection-end="2917" vertical-scroll-proportion="0.8756957">
           <folding />
         </state>
       </provider>

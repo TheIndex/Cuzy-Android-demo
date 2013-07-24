@@ -28,7 +28,7 @@ public class baseMenuActivity2 extends BaseMenuActivity {
 
 
         CuzyAdSDK.getInstance().setContext(this);
-        CuzyAdSDK.getInstance().registerApp("200056","051a9e4652fc5b881dfc6ba74d3cd633");
+        CuzyAdSDK.getInstance().registerApp("200003","208f53acd6d396867c2a721be6c807eb");
 
 
         setContentView(R.layout.menuactivity1);
@@ -96,6 +96,7 @@ public class baseMenuActivity2 extends BaseMenuActivity {
             if (LoadingMoreFlag ==0)
             {
                 currentPageIndex = 0;
+                //CuzyAdSDK.getInstance().setRawItemPicSize("250x250");
                 rawData = CuzyAdSDK.getInstance().fetchRawItems("", "鞋子", 0);
                 Log.d("cuzy.com: ", "return of raw data: theindex:  " + rawData.size());
             }
