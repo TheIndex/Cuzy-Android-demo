@@ -14,9 +14,9 @@ android demo, that shows the capabilities of Cuzy SDK (淘宝客), that can be f
 
 =========================================
 
-last update: 2013.6.26
+last update: 2013.7.24
 
-===============version 1.0===============
+===============version 3.0===============
 
 1.  this is a android APP SDK for taobaoke (Also has a sdk for ios)
 
