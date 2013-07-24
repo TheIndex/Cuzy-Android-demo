@@ -31,10 +31,10 @@ public class baseMenuActivity3 extends BaseMenuActivity {
         {
             CuzyAdSDK.getInstance().setContext(this);
 
-            CuzyAdSDK.getInstance().setUsingTestServer();
-            CuzyAdSDK.getInstance().registerApp("200056","051a9e4652fc5b881dfc6ba74d3cd633");
+            //CuzyAdSDK.getInstance().setUsingTestServer();
+            //CuzyAdSDK.getInstance().registerApp("200056","051a9e4652fc5b881dfc6ba74d3cd633");
             //release server key & secret:
-            //CuzyAdSDK.getInstance().registerApp("200003","208f53acd6d396867c2a721be6c807eb");
+            CuzyAdSDK.getInstance().registerApp("200003","208f53acd6d396867c2a721be6c807eb");
         }
 
 

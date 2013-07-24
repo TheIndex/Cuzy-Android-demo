@@ -26,27 +26,24 @@
       </GlobalState>
     </option>
   </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="cuzy.com" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="728b621c-4d6f-440f-be10-098d79f50c09" name="Default" comment="update..~~">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SideNavigation-master/sample/lib/CuzyAdSDKAndroid.jar" afterPath="$PROJECT_DIR$/SideNavigation-master/sample/lib/CuzyAdSDKAndroid.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/baseMenuActivity3.java" afterPath="$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/baseMenuActivity3.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="information.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1372672195150" ignored="false" />
+    <file path="/Dummy.txt" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1374655375133" ignored="false" />
     <file path="/menuActivity1.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1371721065638" ignored="false" />
     <file path="$PROJECT_DIR$/../cuzy-android/CuzyAdSDKAndroid/src/com/theindex/CuzyAdSDK/CuzyNetCenter.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1371296617510" ignored="false" />
-    <file path="/fragment.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1372224140180" ignored="false" />
+    <file path="/fragment.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1374653627308" ignored="false" />
     <file path="/ListAdapter.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1371375742856" ignored="false" />
     <file path="/ListItemView.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1371309703311" ignored="false" />
     <file path="/ListCellView.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1371309939016" ignored="false" />
     <file path="/a.dummy" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1371801932915" ignored="false" />
     <file path="/cuzyAdapter.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1371712512736" ignored="false" />
     <file path="/simplelistview.xml" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1371638071077" ignored="false" />
-    <file path="/webViewActivity.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1371793919402" ignored="false" />
+    <file path="/webViewActivity.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1374654819104" ignored="false" />
     <file path="/LoaderImpl.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1371627953121" ignored="false" />
     <file path="/Utils.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1371647748417" ignored="false" />
     <file path="/strings.xml" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1371779982042" ignored="false" />
@@ -57,7 +54,7 @@
     <file path="/baseMenuActivity_setting.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1371779998647" ignored="false" />
     <file path="/BaseMenuActivity.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1372126427747" ignored="false" />
     <file path="/menuactivity1.xml" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1371802473457" ignored="false" />
-    <file path="/baseMenuActivity2.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1372125410911" ignored="false" />
+    <file path="/baseMenuActivity2.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1374653476713" ignored="false" />
     <file path="/baseMenuActivity3.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1372148429497" ignored="false" />
     <file path="/webview.xml" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1371792506524" ignored="false" />
     <file path="$PROJECT_DIR$/../android-pulltorefresh-and-loadmore-master/pull-load-example/res/layout/loadmore.xml" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1371799800511" ignored="false" />
@@ -67,6 +64,11 @@
     <file path="$PROJECT_DIR$/../android-pulltorefresh-and-loadmore-master/pulltorefresh-and-loadmore/gen/com/android/widget/BuildConfig.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1371800273560" ignored="false" />
     <file path="/LoadMoreListView.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1371801857023" ignored="false" />
     <file path="/MainActivity.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1372216818834" ignored="false" />
+    <file path="$PROJECT_DIR$/../cuzyAndroid/CuzyAdSDKAndroidDemo/gen/com/theindex/CuzyAdSDKDemo/Manifest.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1374653944696" ignored="false" />
+    <file path="$PROJECT_DIR$/../cuzyAndroid/CuzyAdSDKAndroid/gen/com/theindex/CuzyAdSDK/R.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1374653944696" ignored="false" />
+    <file path="$PROJECT_DIR$/../cuzyAndroid/CuzyAdSDKAndroid/gen/com/theindex/CuzyAdSDK/Manifest.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1374653944696" ignored="false" />
+    <file path="$PROJECT_DIR$/../cuzyAndroid/CuzyAdSDKAndroidDemo/gen/com/theindex/CuzyAdSDKDemo/R.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1374653944696" ignored="false" />
+    <file path="$PROJECT_DIR$/../cuzyAndroid/CuzyAdSDKAndroidDemo/gen/com/theindex/CuzyAdSDKDemo/BuildConfig.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1374653945082" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +83,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -118,6 +119,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -130,31 +132,25 @@
       <file leaf-file-name="BaseMenuActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/BaseMenuActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="75" selection-start="1538" selection-end="1600" vertical-scroll-proportion="0.0">
+            <state line="60" column="86" selection-start="2235" selection-end="2235" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/MainActivity.java">
+      <file leaf-file-name="baseMenuActivity_setting.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/baseMenuActivity_setting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="263" column="48" selection-start="9958" selection-end="9958" vertical-scroll-proportion="0.47044024">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1905#1913#0" expanded="true" />
-              </folding>
+            <state line="21" column="13" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webview.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/res/layout/webview.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="4" selection-start="276" selection-end="546" vertical-scroll-proportion="0.0">
+            <state line="87" column="40" selection-start="3668" selection-end="3668" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -162,20 +158,29 @@
       </file>
       <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="13" column="64" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="webViewActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="129" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webViewActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/webViewActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="39" selection-start="1422" selection-end="1703" vertical-scroll-proportion="0.0">
+            <state line="77" column="29" selection-start="2917" selection-end="2917" vertical-scroll-proportion="0.9254902">
               <folding />
             </state>
           </provider>
@@ -191,7 +196,7 @@
       <file leaf-file-name="baseMenuActivity2.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/baseMenuActivity2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="24" selection-start="3675" selection-end="3675" vertical-scroll-proportion="0.0">
+            <state line="40" column="72" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -200,7 +205,16 @@
       <file leaf-file-name="baseMenuActivity3.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/baseMenuActivity3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="26" selection-start="3899" selection-end="3899" vertical-scroll-proportion="0.0">
+            <state line="36" column="90" selection-start="1089" selection-end="1121" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/lib/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -228,7 +242,6 @@
         <option value="$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/baseMenuActivity_setting.java" />
         <option value="$PROJECT_DIR$/SideNavigation-master/sample/res/layout/menuactivity_setting.xml" />
         <option value="$PROJECT_DIR$/SideNavigation-master/sample/res/layout/webview.xml" />
-        <option value="$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/webViewActivity.java" />
         <option value="$PROJECT_DIR$/SideNavigation-master/sample/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/SideNavigation-master/sample/res/layout/load_more_footer.xml" />
         <option value="$PROJECT_DIR$/SideNavigation-master/sample/res/layout/pull_to_refresh_header.xml" />
@@ -236,19 +249,20 @@
         <option value="$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/LoadMoreListView/PullAndLoadListView.java" />
         <option value="$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/LoadMoreListView/LoadMoreListView.java" />
         <option value="$PROJECT_DIR$/SideNavigation-master/sample/res/layout/menuactivity1.xml" />
-        <option value="$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/baseMenuActivity2.java" />
-        <option value="$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/baseMenuActivity3.java" />
-        <option value="$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/BaseMenuActivity.java" />
         <option value="$PROJECT_DIR$/SideNavigation-master/sample/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/MainActivity.java" />
+        <option value="$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/baseMenuActivity3.java" />
+        <option value="$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/BaseMenuActivity.java" />
+        <option value="$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/baseMenuActivity2.java" />
+        <option value="$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/webViewActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="613" />
-    <option name="y" value="35" />
+    <option name="x" value="594" />
+    <option name="y" value="24" />
     <option name="width" value="1615" />
-    <option name="height" value="977" />
+    <option name="height" value="986" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -276,6 +290,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -362,6 +377,28 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="information" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -394,8 +431,40 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="information" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="drawable-mdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="information" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-ldpi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -433,7 +502,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -597,7 +665,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -747,7 +815,11 @@
       <created>1372217118528</created>
       <updated>1372217118528</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="update..~~">
+      <created>1372672246829</created>
+      <updated>1372672246829</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -771,8 +843,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="613" y="35" width="1615" height="977" extended-state="0" />
-    <editor active="true" />
+    <frame x="594" y="24" width="1615" height="986" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30384168" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -782,20 +854,20 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32596043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4422404" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2990762" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44110855" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929292" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3275972" sideWeight="0.6627771" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33722287" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3275972" sideWeight="0.66281754" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33718246" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14167199" sideWeight="0.6627771" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32737714" sideWeight="0.6627771" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288026" sideWeight="0.98031497" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30221704" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -868,28 +940,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/LoadMoreListView/LoadMoreListView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="62" selection-start="3551" selection-end="3551" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/res/layout/menuactivity1.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="74" selection-start="770" selection-end="770" vertical-scroll-proportion="-7.7777777" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/android-sdks/sources/android-17/android/os/AsyncTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="371" column="19" selection-start="14826" selection-end="14826" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/cuzyAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="35" selection-start="697" selection-end="697" vertical-scroll-proportion="0.0">
@@ -917,38 +967,14 @@
         <state line="25" column="17" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/BaseMenuActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="75" selection-start="1538" selection-end="1600" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/res/layout/webview.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="4" selection-start="276" selection-end="546" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="64" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/webViewActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="39" selection-start="1422" selection-end="1703" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/res/drawable-hdpi/ic_android1.png">
@@ -956,27 +982,69 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/baseMenuActivity2.java">
+    <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/baseMenuActivity_setting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="24" selection-start="3675" selection-end="3675" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/baseMenuActivity3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="26" selection-start="3899" selection-end="3899" vertical-scroll-proportion="0.0">
+        <state line="21" column="13" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="263" column="48" selection-start="9958" selection-end="9958" vertical-scroll-proportion="0.47044024">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1905#1913#0" expanded="true" />
-          </folding>
+        <state line="87" column="40" selection-start="3668" selection-end="3668" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="64" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="129" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/lib/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/baseMenuActivity3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="90" selection-start="1089" selection-end="1121" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/BaseMenuActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="86" selection-start="2235" selection-end="2235" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/baseMenuActivity2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="72" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/webViewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="29" selection-start="2917" selection-end="2917" vertical-scroll-proportion="0.9254902">
+          <folding />
         </state>
       </provider>
     </entry>
