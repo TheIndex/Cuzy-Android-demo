@@ -10,7 +10,7 @@ intellij idea 12
 
 =============
 
-android demo, that shows the capabilities of Cuzy SDK (淘宝客), that can be found on http://www.cuzy.com
+android demo, that shows the capabilities of Cuzy SDK (淘宝客)，taobaoke, that can be found on http://www.cuzy.com
 
 =========================================
 
@@ -114,3 +114,6 @@ QQ：1263572458 QQ群：322622433
 ![alt tag](https://raw.github.com/TheIndex/Cuzy-Android-demo/master/pic/4.png)
 
 ![alt tag](https://raw.github.com/TheIndex/Cuzy-Android-demo/master/pic/5.png)
+
+
+keywords:taobaoke,淘宝客，掌淘，手机淘客，cuzy，cuzysdk，返利，手机返利
