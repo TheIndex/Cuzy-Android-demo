@@ -132,6 +132,23 @@ public class BaseMenuActivity extends SherlockActivity implements ISideNavigatio
             if (LoadingMoreFlag ==0)
             {
                 currentPageIndex = 0;
+                //////可以使用这个函数改变排序方式， 支持的排序方式有多种，具体可以参考文档/////////////////////////
+                //CuzyAdSDK.getInstance().setSortingMethod("commission_volume_desc");
+
+                ////// 可以用以下函数设置 过滤功能/////////////////////////////////////////////////////////////////
+
+                //1.商品降价 大于100元
+                //CuzyAdSDK.getInstance().setFilter_PromotionRange("100", "");
+                //2. 卖家等级 大于10,五钻以上//
+                //CuzyAdSDK.getInstance().setFilter_sellerCreditRange("10","");
+                //3.佣金比例大于20%//
+                //CuzyAdSDK.getInstance().setFilter_CommissionRate("2000","");
+                //4. 30天内促销量 大于500//
+                CuzyAdSDK.getInstance().setFilter_CommissionVolumeIn30days("500","");
+
+                //5. 淘宝类型/
+                //CuzyAdSDK.getInstance().setFilter_itemType("1");
+                /////////end of filter/////////////////////////////////////////////////
                 rawData = CuzyAdSDK.getInstance().fetchRawItems("", "男装", 0);
                 Log.d("cuzy.com: ", "return of raw data: Thindex:  " + rawData.size());
             }
