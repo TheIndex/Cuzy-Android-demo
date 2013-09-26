@@ -13,6 +13,26 @@ intellij idea 12
 android demo, that shows the capabilities of Cuzy SDK (淘宝客)，taobaoke, that can be found on http://www.cuzy.com
 
 
+------------version 3.2-------------------------
+
+last update 2013.09.26
+
+1. 新增 是否包邮，物品来源类型（0 为未知， 1为淘宝 2为天猫 ），多张相关图片
+
+CuzyTBKItem tempItem = rawData.get(i);
+
+   Log.d("cuzy.com", "return of the raw data picture url is "+ tempItem.getItemImageURLString());
+   Log.d("cuzy.com", "return of the raw data picture itemID is "+ tempItem.getItemID());
+   Log.d("cuzy.com", "return of the raw data itemType is "+ tempItem.getItemType());
+   Log.d("cuzy.com", "return of the raw data free postage is "+ tempItem.getItemFreePostage());
+   Log.d("cuzy.com", "return of the raw data picture array count is "+ tempItem.getItemPictures().size());
+   for (int k = 0;k< tempItem.getItemPictures().size();k++)
+   {
+       Log.d("cuzy.com", "return of the raw data pictures is  "+ tempItem.getItemPictures().get(k));
+   }
+
+
+
 
 -------------version 3.1--------------------------
 last update 2013.08.14
