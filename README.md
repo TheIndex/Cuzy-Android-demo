@@ -11,6 +11,8 @@ intellij idea 12
 =============
 
 android demo, that shows the capabilities of Cuzy SDK (淘宝客)，taobaoke, that can be found on http://www.cuzy.com
+
+
 ------------version 3.3-------------------------
 
 last update 2013.10.25
