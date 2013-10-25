@@ -11,6 +11,25 @@ intellij idea 12
 =============
 
 android demo, that shows the capabilities of Cuzy SDK (淘宝客)，taobaoke, that can be found on http://www.cuzy.com
+------------version 3.3-------------------------
+
+last update 2013.10.25
+
+更多说明可以看后面详细说明
+
+
+1. 新增团购API
+
+ public ArrayList<CuzyGroupBuyingItem> fetchGroupBuyingItemByLatLon(String latString, String lonString, int CoordType, int searchRadius, int pageIndex)
+
+ public ArrayList<CuzyGroupBuyingItem> fetchGroupBuyingItemByKeyword(String keywords, int pageIndex, String cityString, String DistString , String AreaString)
+
+
+
+2.新增taobao推广店铺API
+
+public ArrayList<CuzyTaobaoShopItem> fetchTBshopItemsWithKeyword(String keywords, int pageIndex, String sortingString)
+
 
 
 ------------version 3.2-------------------------
@@ -231,36 +250,131 @@ public void setFilter_CommissionVolumeIn30days(String startCommissionVolume, Str
 
 public void setFilter_itemType(String itemTypeString)
 
+       
+--------------------------------------
+
+6. 团购类API
+
+
+6.1 
+
+ /*
+
+    *         fetchGroupBuyingItemByLatLon（）
+
+    *          通过经纬度度信息获取 团购信息
+
+
+
+    * --------------------- 必选参数--------------------------
+
+    * 	"latString"        		 //维度
+
+    *	"lonString"        		 //经度
+
+
+    * -------------------- 可选参数 --------------------------
+
+    *  "type"			//默认为3 . 坐标的类型:
+
+    *                  1.gcj02ll（国测局墨卡托坐标,火星坐标系）、
+
+    *                  2.wgs84ll（GPS经纬度，地球坐标系）、
+
+                      3.bd09ll（百度墨卡托坐标）
+
+    *    "radius"          //半径 ，单位为米. 如果超过10000或小于1时，默认为100 , 建议值为10000
+
+    *    "pageIndex"          //当前的页数不填默认为第一页 即 page:0 ，最大页码为20
+
+    */
+
+   public ArrayList<CuzyGroupBuyingItem> fetchGroupBuyingItemByLatLon(String latString, String lonString, int CoordType, int searchRadius, int pageIndex)
+   
+
+
+6.2
+
+  /*    fetchGroupBuyingItemByKeyword()
+  
+          通过关键字 或者类别信息获取团购信息
+  
+    ----------------必选参数-------------------------------
+  
+     "KeyWord" : 必选参数
+  
+            KeyWord团购名称关键字
+
+
+    ----------------可选参数-------------------------------
+
+     "pageIndex"    //当前的页数不填默认为第一页 即 page:0 ，最大页码为20
+
+
+    "cityString"						//城市名，有街道则只依据街道
+  
+     "DistString"					//区县名
+  
+      "Areakey"						//地标或街道名
+
+
+
+    */
+    
+    
+    public ArrayList<CuzyGroupBuyingItem> fetchGroupBuyingItemByKeyword(String keywords, int pageIndex, String cityString, String DistString , String AreaString)
+    
+
+
+
+------------------------------------------------------
+7.taobao推广店铺API
+    
+    /* fetch taobao Shop，获取淘宝店铺API
+
+
+     -------------------必选参数------------------------------------
+    
+    "keyword"  //  keyword 店铺名称关键字
+
+     -------------------可选参数---------------------------------------
+    
+    "page"          //当前的页数不填默认为第一页 即 page:0 ，最大页码为20
+
+
+    排序方式:
+    
+     "seller_credit_desc" 卖家信用 降序
+    
+    "seller_credit_asc" 卖家信用 升序
+    
+    "commission_rate_desc"  佣金 降序
+    
+     "commission_rate_asc"  佣金 升序
+    
+    "auction_count_desc"  商品总数 降序
+    
+    "auction_count_asc"  商品总数 降序
+    
+    "total_auction_desc" 累计推广量 降序
+    
+    "total_auction_asc" 累计推广量 降序
+    
+    */
+    
+    
+    
+    
+    public ArrayList<CuzyTaobaoShopItem> fetchTBshopItemsWithKeyword(String keywords, int pageIndex, String sortingString)
+   
+
 
 
       
 --------------------------------------
-////////////////////////////////////////////////////////
--------------version 3.0--------------------------
 
-为了解决天猫商品的跳转问题，需要在webview跳转过程中，构建一个url， 代码如下
 
- @Override
-        public void onPageFinished(android.webkit.WebView view, java.lang.String url) {
-        
-            Log.d("CuzyAdSDK","finished " + url);
-            
-            if(url.contains("http://detail.tmall.com/";))
-            
-            {
-            
-               ///if it is a tmall link
-                String[] sArray = url.split("\\?|&");
-                String idString = sArray[1];
-                idString = idString.substring(3);///get rid of "id=";
-                idString = "http://a.m.tmall.com/i"; + idString + ".htm";
-                webView.loadUrl(idString);
 
-            }
-
-        }
-
-////////////////////////////////////////////////////////
 
 
 ////////////////////////////////////////////////////////
@@ -283,4 +397,4 @@ QQ：1263572458 QQ群：322622433
 ![alt tag](https://raw.github.com/TheIndex/Cuzy-Android-demo/master/pic/5.png)
 
 
-keywords:taobaoke,淘宝客，掌淘，手机淘客，cuzy，cuzysdk，返利，手机返利
+keywords:taobaoke,淘宝客，掌淘，手机淘客，cuzy，cuzysdk，返利，手机返利，团购，淘宝推广店铺，大众点评团购api
