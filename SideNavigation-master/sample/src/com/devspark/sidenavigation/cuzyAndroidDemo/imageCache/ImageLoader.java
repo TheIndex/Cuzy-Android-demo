@@ -1,4 +1,4 @@
-package com.devspark.sidenavigation.cuzyAndroidDemo.imageCache;
+package com.example.taotaokanAndroid.imageCache;
 
 /**
  * Created with IntelliJ IDEA.
@@ -10,7 +10,6 @@ package com.devspark.sidenavigation.cuzyAndroidDemo.imageCache;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -28,7 +27,7 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.widget.ImageView;
-import com.devspark.sidenavigation.cuzyAndroidDemo.R;
+import com.example.taotaokanAndroid.R;
 
 public class ImageLoader {
 
@@ -102,10 +101,11 @@ public class ImageLoader {
             // decode image size
             BitmapFactory.Options o = new BitmapFactory.Options();
             o.inJustDecodeBounds = true;
-            BitmapFactory.decodeStream(new FileInputStream(f), null, o);
+            FileInputStream temp1= new FileInputStream(f);
+            BitmapFactory.decodeStream(temp1, null, o);
 
             // Find the correct scale value. It should be the power of 2.
-            final int REQUIRED_SIZE = 70;
+            final int REQUIRED_SIZE = 400;
             int width_tmp = o.outWidth, height_tmp = o.outHeight;
             int scale = 1;
             while (true) {
@@ -120,8 +120,12 @@ public class ImageLoader {
             // decode with inSampleSize
             BitmapFactory.Options o2 = new BitmapFactory.Options();
             o2.inSampleSize = scale;
-            return BitmapFactory.decodeStream(new FileInputStream(f), null, o2);
-        } catch (FileNotFoundException e) {
+            FileInputStream temp2 = new FileInputStream(f);
+            Bitmap resultMap = BitmapFactory.decodeStream(temp2, null, o2);
+            temp1.close();
+            temp2.close();
+            return resultMap;
+        } catch (Exception e) {
         }
         return null;
     }
