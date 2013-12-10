@@ -122,6 +122,7 @@ public class baseMenuActivity3 extends BaseMenuActivity {
                 /////////end of filter/////////////////////////////////////////////////
 
 
+                CuzyAdSDK.getInstance().setCuzyDataType(CuzyAdSDK.CUZY_DATATYPE_TAOBAO);
 
                 rawData = CuzyAdSDK.getInstance().fetchRawItems("", "女包", 0);
                 Log.d("cuzy.com: ", "return of raw data: Thindex:  " + rawData.size());

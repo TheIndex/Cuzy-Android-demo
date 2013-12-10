@@ -2,8 +2,8 @@
 <resources>
 
     <string name="app_name">cuzy-购物导航</string>
-    <string name="title1">cuzy购物导航</string>
-    <string name="title2">cuzy购物导航</string>
+    <string name="title1">taobao购物导航</string>
+    <string name="title2">京东JD购物导航</string>
     <string name="title3">cuzy购物导航</string>
     <string name="title4">关于cuzySDK</string>
     <string name="mode">Mode</string>

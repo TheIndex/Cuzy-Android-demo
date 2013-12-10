@@ -109,7 +109,8 @@ public class baseMenuActivity2 extends BaseMenuActivity {
                 //3.佣金比例大于20%//
                 //CuzyAdSDK.getInstance().setFilter_CommissionRate("2000","");
                 //4. 30天内促销量 大于500//
-                CuzyAdSDK.getInstance().setFilter_CommissionVolumeIn30days("500","");
+                CuzyAdSDK.getInstance().setCuzyDataType(CuzyAdSDK.CUZY_DATATYPE_JD);
+                //CuzyAdSDK.getInstance().setFilter_CommissionVolumeIn30days("500","");
 
                 //5. 淘宝类型/
                 //CuzyAdSDK.getInstance().setFilter_itemType("1");

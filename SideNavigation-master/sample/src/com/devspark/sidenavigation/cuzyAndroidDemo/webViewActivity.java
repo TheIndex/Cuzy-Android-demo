@@ -61,22 +61,41 @@ public class webViewActivity extends Activity {
             progressBar.setVisibility(View.VISIBLE);
             Log.d("CuzyAdSDK","started " + url);
         }
+        public void handleTaobao(String url)
+        {
+            ///if it is a tmall link
+            String[] sArray = url.split("\\?|&");
+            String idString = sArray[1];
+            idString = idString.substring(3);///get rid of "id=";
+            idString = "http://a.m.tmall.com/i" + idString + ".htm";
+
+            uiwebview.loadUrl(idString);
+        }
+
+        public void handleJD(String inputString)
+        {
+            inputString = inputString.replace("http://item.jd.com/", "");
+            inputString = inputString.replace("http://www.360buy.com/product/","");
+            inputString = "http://m.jd.com/product/" + inputString+ "?v=t";
+
+            uiwebview.loadUrl(inputString);
+
+        }
         @Override
         public void onPageFinished(android.webkit.WebView view, java.lang.String url) {
-            progressBar.setVisibility(View.INVISIBLE);
             Log.d("CuzyAdSDK","finished " + url);
             if(url.contains("http://detail.tmall.com/"))
             {
-                ///if it is a tmall link
-                String[] sArray = url.split("\\?|&");
-                String idString = sArray[1];
-                idString = idString.substring(3);///get rid of "id=";
-                idString = "http://a.m.tmall.com/i" + idString + ".htm";
-
-                uiwebview.loadUrl(idString);
-
+                handleTaobao(url);
             }
+
+            if (url.contains("http://item.jd.com/") || url.contains("http://www.360buy.com/product/") )
+            {
+                handleJD(url);
+            }
+            progressBar.setVisibility(View.INVISIBLE);
         }
+
         @Override
         public void onReceivedError(android.webkit.WebView view, int errorCode, java.lang.String description, java.lang.String failingUrl){
             progressBar.setVisibility(View.INVISIBLE);

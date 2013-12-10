@@ -1,3 +1,39 @@
+
+
+
+
+------------version 3.3.2-----------------------
+last update 2013.12.10
+
+1. 新增 京东 数据平台支持 ,配置平台 可以访问 www.cuzy2.com 
+  
+    //return if current data type is from TAOBAO Or Jingdong (JD)
+    //  1. for taobao    CUZY_DATATYPE_TAOBAO
+    //  2. for jd.com  jingdong   CUZY_DATATYPE_JD
+    //
+    public int getCuzyDataType()
+    {
+        return CuzyAdSDK.getInstance().CuzyDataType;
+    }
+
+    //return if current data type is from TAOBAO Or Jingdong (JD)
+    //  1. CUZY_DATATYPE_TAOBAO = for taobao
+    //  2. CUZY_DATATYPE_JD =  for jd.com  jingdong
+    //
+
+    public void setCuzyDataType(int dataType)
+  
+2. 使用方式，只需要在发送数据请求之前设置数据类型
+
+     
+     //CuzyAdSDK.getInstance().setCuzyDataType(CuzyAdSDK.CUZY_DATATYPE_TAOBAO);
+     CuzyAdSDK.getInstance().setCuzyDataType(CuzyAdSDK.CUZY_DATATYPE_JD);
+     CuzyAdSDK.getInstance().fetchItems("","鞋子",0);
+    
+   
+
+
+
 ------------version 3.3-------------------------
 last update 2013.10.25
 

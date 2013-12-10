@@ -149,6 +149,8 @@ public class BaseMenuActivity extends SherlockActivity implements ISideNavigatio
                 //5. 淘宝类型/
                 //CuzyAdSDK.getInstance().setFilter_itemType("1");
                 /////////end of filter/////////////////////////////////////////////////
+                CuzyAdSDK.getInstance().setCuzyDataType(CuzyAdSDK.CUZY_DATATYPE_TAOBAO);
+
                 rawData = CuzyAdSDK.getInstance().fetchRawItems("", "男装", 0);
                 Log.d("cuzy.com: ", "return of raw data: Thindex:  " + rawData.size());
             }
