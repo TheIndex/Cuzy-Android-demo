@@ -13,6 +13,52 @@ intellij idea 12
 android demo, that shows the capabilities of Cuzy SDK (淘宝客)，taobaoke, that can be found on http://www.cuzy.com
 
 
+------------version 3.3.2-----------------------
+
+last update 2013.12.10
+
+1. 新增 京东 数据平台支持 ,配置平台 可以访问 www.cuzy2.com 
+  
+    //return if current data type is from TAOBAO Or Jingdong (JD)
+
+    //  1. for taobao    CUZY_DATATYPE_TAOBAO
+    
+    //  2. for jd.com  jingdong   CUZY_DATATYPE_JD
+    
+    //
+    
+    public int getCuzyDataType()
+    
+    {
+    
+        return CuzyAdSDK.getInstance().CuzyDataType;
+        
+    }
+
+    //return if current data type is from TAOBAO Or Jingdong (JD)
+    
+    //  1. CUZY_DATATYPE_TAOBAO = for taobao
+    
+    //  2. CUZY_DATATYPE_JD =  for jd.com  jingdong
+    
+    //
+
+    public void setCuzyDataType(int dataType)
+  
+2. 使用方式，只需要在发送数据请求之前设置数据类型
+
+     
+     //CuzyAdSDK.getInstance().setCuzyDataType(CuzyAdSDK.CUZY_DATATYPE_TAOBAO);
+     
+     CuzyAdSDK.getInstance().setCuzyDataType(CuzyAdSDK.CUZY_DATATYPE_JD);
+     
+     CuzyAdSDK.getInstance().fetchItems("","鞋子",0);
+    
+   
+
+
+
+
 ------------version 3.3-------------------------
 
 last update 2013.10.25
@@ -399,4 +445,4 @@ QQ：1263572458 QQ群：322622433
 ![alt tag](https://raw.github.com/TheIndex/Cuzy-Android-demo/master/pic/5.png)
 
 
-keywords:taobaoke,淘宝客，掌淘，手机淘客，cuzy，cuzysdk，返利，手机返利，团购，淘宝推广店铺，大众点评团购api
+keywords:taobaoke,淘宝客,京东，京东客，掌淘，手机淘客，cuzy，cuzysdk，返利，手机返利，团购，淘宝推广店铺，大众点评团购api
