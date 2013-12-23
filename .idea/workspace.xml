@@ -30,13 +30,13 @@
     <option name="TOOL_WINDOW_CUSTOM_FILTER" value="huangzf" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="728b621c-4d6f-440f-be10-098d79f50c09" name="Default" comment="android cuzysdk update to 3.3.2 ,,,add jingdong data support..">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/webViewActivity.java" afterPath="$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/webViewActivity.java" />
+    <list default="true" id="728b621c-4d6f-440f-be10-098d79f50c09" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SideNavigation-master/sample/lib/CuzyAdSDKAndroid.jar" afterPath="$PROJECT_DIR$/SideNavigation-master/sample/lib/CuzyAdSDKAndroid.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="information.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1386924573366" ignored="false" />
+    <file path="/Dummy.txt" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1387789060474" ignored="false" />
     <file path="/menuActivity1.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1371721065638" ignored="false" />
     <file path="$PROJECT_DIR$/../cuzy-android/CuzyAdSDKAndroid/src/com/theindex/CuzyAdSDK/CuzyNetCenter.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1371296617510" ignored="false" />
     <file path="/fragment.java" changelist="728b621c-4d6f-440f-be10-098d79f50c09" time="1386666232262" ignored="false" />
@@ -86,6 +86,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -122,7 +123,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -198,7 +198,7 @@
       <file leaf-file-name="webViewActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/webViewActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="24" selection-start="3552" selection-end="3552" vertical-scroll-proportion="0.53467155">
+            <state line="91" column="31" selection-start="3320" selection-end="3320" vertical-scroll-proportion="0.5310219">
               <folding />
             </state>
           </provider>
@@ -243,8 +243,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="428" />
-    <option name="y" value="98" />
+    <option name="x" value="236" />
+    <option name="y" value="157" />
     <option name="width" value="1730" />
     <option name="height" value="977" />
   </component>
@@ -274,7 +274,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -387,7 +387,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -726,7 +726,11 @@
       <created>1386666982370</created>
       <updated>1386666982371</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="remove taobao smart AD">
+      <created>1386924683895</created>
+      <updated>1386924683895</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -750,10 +754,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="428" y="98" width="1730" height="977" extended-state="0" />
+    <frame x="236" y="157" width="1730" height="977" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30267754" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30267754" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -766,7 +770,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30522564" sideWeight="0.6973225" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30522564" sideWeight="0.6973225" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33566433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14167199" sideWeight="0.6627771" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -821,7 +825,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="android cuzysdk update to 3.3.2 ,,,add jingdong data support.." />
+    <option name="LAST_COMMIT_MESSAGE" value="remove taobao smart AD" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -841,6 +845,7 @@
     <MESSAGE value="update to API 3.1 &#10;1. Add sorting method&#10;2. add result filter funtions" />
     <MESSAGE value="update...to API 3.1" />
     <MESSAGE value="android cuzysdk update to 3.3.2 ,,,add jingdong data support.." />
+    <MESSAGE value="remove taobao smart AD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -945,7 +950,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SideNavigation-master/sample/src/com/devspark/sidenavigation/cuzyAndroidDemo/webViewActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="24" selection-start="3552" selection-end="3552" vertical-scroll-proportion="0.53467155">
+        <state line="91" column="31" selection-start="3320" selection-end="3320" vertical-scroll-proportion="0.5310219">
           <folding />
         </state>
       </provider>
